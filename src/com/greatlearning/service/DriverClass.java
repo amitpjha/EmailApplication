@@ -29,18 +29,18 @@ public class DriverClass
 		System.out.println("4. Legal");
 		
 		
-		int nOption = scan.nextInt();
+		String option = scan.nextLine();
 		
-		switch(nOption)
+		switch(option)
 		{  
 		    //Case statements  
-		   case 1: department = "tech";  
+		   case "1": department = "tech";  
 		   break;  
-		   case 2: department = "adm";  
+		   case "2": department = "adm";  
 		   break;  
-		   case 3: department = "hr";  
+		   case "3": department = "hr";  
 	       break;  
-		   case 4: department = "lg"; 
+		   case "4": department = "lg"; 
 	       break; 
 		    //Default case statement  
 		   default:System.out.println("Please Enter the correct option from 1 to 4");  
